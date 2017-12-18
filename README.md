@@ -4,7 +4,7 @@
 - iOS application fetches GitHub contributors list.
 - API to fetch https://api.github.com/repos/videolan/vlc/contributors
 - Main controller UI is shown below:
-![Alt Text]()
+![Main Screen](https://shakurocom.github.io/iOS-Test/MainUI.png)
 details UI in DetailsUI.png, animation in Animation.gif.
 - Programming languages are Swift or Object C. Swift is preffered.
 . 
