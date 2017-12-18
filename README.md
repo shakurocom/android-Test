@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+# Test exam on iOS developer position 
 
-You can use the [editor on GitHub](https://github.com/shakurocom/iOS-Test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Requirements.
+- iOS application fetches GitHub contributors list.
+- API to fetch https://api.github.com/repos/videolan/vlc/contributors
+- Main controller UI is shown below:
+![Alt Text]()
+details UI in DetailsUI.png, animation in Animation.gif.
+- Programming languages are Swift or Object C. Swift is preffered.
+. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## What should to be done
 
-### Markdown
+Please model the required database relations and create API Endpoints described below.
+The code should be covered with tests (rspec).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+### Endpoint 1
 
-# Header 1
-## Header 2
-### Header 3
+ for a specific Publisher it should return the list of shops selling at least one book of that publisher. Shops should be ordered by the number of books sold. Each shop should include the list of Publisher’s books that are currently in stock. 
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Example response:
+```json
+{ 
+  shops:[
+   {
+     “id”: 1,
+     “name”: “Amazon”,
+     “books_sold_count”: 10,
+     “books_in_stock”: [
+       {
+         “id”: 2,
+         “title”: “Yiddish songs”,
+         “copies_in_stock”: 3
+       },
+       … 
+     ]
+   },
+   … 
+ ]
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Endpoint 2
 
-### Jekyll Themes
+ For a specific Shop it should mark one or multiple copies of a book as sold.
+ 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shakurocom/iOS-Test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Comments
 
-### Support or Contact
+Please upload your code to github repository, there is no need in ZIP archives or smth, please send us link to you solution pubslihed on  https://github.com .
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you have any questions - please dont hesitate to ask contact who shared this test with you.
