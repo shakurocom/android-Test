@@ -8,17 +8,16 @@
   * "login" - title in each row
   * "id" - value under title
   * "avatar_url" - link to the image 
- ![Main Screen](https://shakurocom.github.io/iOS-Test/MainUI.png)
- 
+ <p align="center"> ![Main Screen](https://shakurocom.github.io/iOS-Test/MainUI.png)</p>
 * Item details screen that is shown when you tap on any row - the same image and title as above.
- ![Details Screen](https://shakurocom.github.io/iOS-Test/DetailsUI.png)
+<p align="center">  ![Details Screen](https://shakurocom.github.io/iOS-Test/DetailsUI.png)</p>
 * Animation between Main and Details screens. You can skip this item if its too time-consuming for you.
- ![Animation Between Screens](https://shakurocom.github.io/iOS-Test/Animation.gif)
- -
+<p align="center"> ![Animation Between Screens](https://shakurocom.github.io/iOS-Test/Animation.gif)</p>
+ 
 
 ## What should to be done
 
-Please create iOS application that will fetch GitHub contributors list and meet all requirements listed above. Application should also  have pull to refresh functionality. Application should not block main thread and show progress while fetching data from the server.
+Please create iOS application that will fetch GitHub contributors list and meet all requirements listed above. Application also should have pull to refresh functionality. Application should not block main thread and show progress while fetching data from the server.
 
 ## Comments
 
