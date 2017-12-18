@@ -11,7 +11,7 @@
  <div style="text-align:center"><img src ="https://shakurocom.github.io/iOS-Test/MainUI.png" alt="Main Screen" /></div> 
 * Item details screen that is shown when you tap on any row - the same image and title as above.
 <div style="text-align:center"><img src ="https://shakurocom.github.io/iOS-Test/DetailsUI.png" alt="Details Screen" /></div> 
-* Animation between Main and Details screens. You can skip this item if its too time-consuming for you.
+* Animation between Main and Details screens. You can skip this item if its too time-consuming for you - just please open item details screen without any animation.
  <div style="text-align:center"><img src ="https://shakurocom.github.io/iOS-Test/Animation.gif" alt="Animation Between Screens" /></div> 
  
 
