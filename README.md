@@ -15,7 +15,7 @@
 
  <div style="text-align:center"><img src ="https://shakurocom.github.io/iOS-Test/Animation.gif" alt="Animation Between Screens" /></div> 
  
-
+ 
 ## What should be done
 
 Please create iOS application that will fetch GitHub contributors list and meet all requirements listed above. Application also should have pull to refresh functionality. Application should not block main thread and show progress while fetching data from the server.
