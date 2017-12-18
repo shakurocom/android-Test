@@ -10,7 +10,7 @@
   * "avatar_url" - link to the image 
  <p align="center"> ![Main Screen](https://shakurocom.github.io/iOS-Test/MainUI.png)</p>
 * Item details screen that is shown when you tap on any row - the same image and title as above.
-<p align="center">  ![Details Screen](https://shakurocom.github.io/iOS-Test/DetailsUI.png)</p>
+<div style="text-align:center"><img src ="https://shakurocom.github.io/iOS-Test/DetailsUI.png" alt="Details Screen" /></div> 
 * Animation between Main and Details screens. You can skip this item if its too time-consuming for you.
 <p align="center"> ![Animation Between Screens](https://shakurocom.github.io/iOS-Test/Animation.gif)</p>
  
