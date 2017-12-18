@@ -3,48 +3,22 @@
 ## Requirements.
 - iOS application fetches GitHub contributors list.
 - API to fetch https://api.github.com/repos/videolan/vlc/contributors
-- Main controller UI is shown below:
-![Main Screen](https://shakurocom.github.io/iOS-Test/MainUI.png)
-details UI in DetailsUI.png, animation in Animation.gif.
-- Programming languages are Swift or Object C. Swift is preffered.
-. 
+- Returned data should be presented on 2 screens:
+* Main screen should be shown when application is started. Here is mapping of UI elements to returned parameters:
+  * "login" - title in each row
+  * "id" - value under title
+  * "avatar_url" - link to the image 
+ ![Main Screen](https://shakurocom.github.io/iOS-Test/MainUI.png)
+ 
+* Item details screen that is shown when you tap on any row - the same image and title as above.
+ ![Details Screen](https://shakurocom.github.io/iOS-Test/DetailsUI.png)
+* Animation between Main and Details screens. You can skip this item if its too time-consuming for you.
+ ![Animation Between Screens](https://shakurocom.github.io/iOS-Test/Animation.gif)
+ -
 
 ## What should to be done
 
-Please model the required database relations and create API Endpoints described below.
-The code should be covered with tests (rspec).
-
-
-### Endpoint 1
-
- for a specific Publisher it should return the list of shops selling at least one book of that publisher. Shops should be ordered by the number of books sold. Each shop should include the list of Publisher’s books that are currently in stock. 
-
-Example response:
-```json
-{ 
-  shops:[
-   {
-     “id”: 1,
-     “name”: “Amazon”,
-     “books_sold_count”: 10,
-     “books_in_stock”: [
-       {
-         “id”: 2,
-         “title”: “Yiddish songs”,
-         “copies_in_stock”: 3
-       },
-       … 
-     ]
-   },
-   … 
- ]
-}
-```
-
-### Endpoint 2
-
- For a specific Shop it should mark one or multiple copies of a book as sold.
- 
+Please create iOS application that will fetch GitHub contributors list and meet all requirements listed above. Application should also  have pull to refresh functionality. Application should not block main thread and show progress while fetching data from the server.
 
 ## Comments
 
