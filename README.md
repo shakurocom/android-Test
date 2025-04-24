@@ -31,3 +31,9 @@ Implementation of additional functionality will be an extra plus:
 Please upload your code to github repository, there is no need in ZIP archives or smth, please send us link to you solution pubslihed on  https://github.com .
 
 If you have any questions - please dont hesitate to ask contact who shared this test with you.
+
+## Give it a try and reach us
+
+Explore our expertise in <a href="https://shakuro.com/services/native-mobile-development/?utm_source=github&utm_medium=repository&utm_campaign=android">Native Mobile Development</a> and <a href="https://shakuro.com/services/ios-dev/?utm_source=github&utm_medium=repository&utm_campaign=android">iOS Development</a>.</p>
+
+If you need professional assistance with your mobile or web project, feel free to <a href="https://shakuro.com/get-in-touch/?utm_source=github&utm_medium=repository&utm_campaign=android">contact our team</a>
